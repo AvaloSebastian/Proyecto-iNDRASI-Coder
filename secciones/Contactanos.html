@@ -51,7 +51,41 @@
           </nav>
 </header>
 <!--fin del header-->
+  <main>
+    <h2 class="titulo-contactanos">
+      Contactate con nosotros a traves de email
+    </h2>
+    <form>
+      <div class="mb-3 text-lg-center text-white">
+        <label for="exampleInputEmail1" class="form-label">Su Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text text-white">No compartiremos tu informacion con nadie</div>
+      </div>
+      <br><br>
+      <h3 class="titulo-consultas1">Selecciona cual sera tu consulta</h3>
+      <div class="dropp-opciones">
+        <select id="menuOpciones1" name="Tipo de consulta">Tipo de Consulta
+            <hr>
+            <option value="option 1">Consulta de precios</option>
+            <option value="option 2">Quejas/Devoluciones</option>
+            <option value="option 3">Reportes de Bgus/errores</option>
+            <option value="option 4">Consulta de Stock</option>
+        </select>
+    </div>
+    <br><br>
+     <h3 class="titulo-consultas">Desarrollo de su consulta/comentarios:</h3>
+     <div id="textArea">
+          <textarea name="Comentarios"cols="150" rows="10"></textarea>
+    </div>
+        <br>
+        <br>
+        <div class="botones">
+          <button class="botones-contacto" type="submit">Enivar</button>
+          <button class="botones-contacto" type="reset">Reiniciar formulario</button>
+        </div>
 
+    </form>
+  </main>
 <!--inicio de footer-->
 <footer class="footerContainer">
 

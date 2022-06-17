@@ -83,7 +83,6 @@ p{
     letter-spacing: normal;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-content: flex-start;
     align-items: center;
 }
@@ -128,6 +127,79 @@ h4{
 }
 /*seccion ubicacion*/
 
+/*Seccion Contactanos*/
+
+.titulo-contactanos{
+    font-family: 'Koulen';
+    font-style: oblique;
+    color: #fdfdfd;
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-color: #fdfdfd 
+}
+.titulo-consultas1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Koulen';
+    font-display:unset;
+    color: #fdfdfd;
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-color: #fdfdfd 
+}
+
+.titulo-consultas{
+    font-family: 'Koulen';
+    font-display:unset;
+    color: #fdfdfd;
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-color: #fdfdfd 
+}
+.dropp-opciones{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+#menuOpciones1{
+    background-color: hsl(330, 94%, 26%);
+    font-family: 'Koulen';
+    color: #fdfdfd;
+}
+#textArea{
+    display: flex;
+    justify-content:center;
+}
+#textArea textarea{
+    font-family: 'Koulen';
+    font-size: 1rem;
+    color:#fdfdfd;
+    background-color:rgb(218, 5, 76);
+}
+.botones{
+    display: flex;
+    justify-content:center;
+    margin: 4px;
+}
+
+.botones-contacto{
+    margin: 10px;
+    background-color: hsl(330, 92%, 45%);
+    font-family:'Koulen';
+    font-size: medium;
+    text-transform: uppercase;
+    color: #fdfdfd;
+}
+.botones-contacto:hover{
+    background-color: black;
+    color: #fdfdfd;
+}
+.botones-contacto:active{
+    background-color: #fdfdfd;
+    color: black;
+}
+/*seccion contactanos*/
 
 
 
@@ -268,21 +340,24 @@ h4{
 .texto-sobreNosotros{
     text-transform: lowercase;
     font-family: 'Koulen';
-    font-size: 4rem;
+    font-size: 2rem;
     font-style: italic;
     letter-spacing: normal;
     display: flex;
     justify-content: center;
+    position: relative;
     flex-direction: column;
-    align-content: flex-start;
+    align-content: flex-end;
     align-items: center;
+    transform: translateY(-415px);
 }
 .titulo-marcas{
+    margin: 10px;
     font-family: 'Koulen';
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fdfdfd;
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
@@ -292,11 +367,6 @@ h4{
     font-size: 2rem;
     color: #fdfdfd;
     justify-content: center;
-}
-.videos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 /*Seccion Sobre Nosotros*/
 
@@ -313,6 +383,8 @@ h4{
     margin-bottom: 30px;
 }
 .mapa iframe{
+    width: 340px;
+    height: 580px;
     border-style: double;
     border-color: #fdfdfd;
 }
