@@ -1,343 +1,309 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    background-color: hsl(357, 80%, 55%);
-    background-image: url(../img/gym-image.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100% 50%;
-}
+* {
+  margin: 0px;
+  padding: 0px; }
 
-.logo{
-    width: 200px;
-    height: 200px;
-    margin-left: 36px;
+body {
+  background-color: #e8303a;
+  background-image: url(../img/gym-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 50%; }
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 36px;
+  margin-top: 36px;
+  display: flex;
+  justify-content: start;
+  align-items: top;
+  align-content: flex-start;
+  transform: translate(200px, 2px); }
+
+.logo1 img {
+  background-color: #fdfdfd;
+  width: 6rem;
+  height: 6rem;
+  transform: translate(50px, 0px); }
+
+.titulo-principal {
+  margin: 15px;
+  transform: translate(-300px, -100px);
+  font-family: 'Koulen';
+  font-size: 70px;
+  font-weight: 500px;
+  font-display: inherit;
+  font-style: oblique;
+  color: #fdfdfd;
+  display: flex;
+  justify-content: right;
+  align-content: top;
+  align-items: top; }
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  background-color: #e8303a; }
+
+p {
+  margin-top: 580px;
+  font-family: 'Koulen';
+  font-size: 3rem;
+  font-style: italic;
+  color: aliceblue;
+  transform: translate(0px, 45px);
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
+.sponsor-tittle {
+  margin: 70px;
+  font-family: 'Koulen';
+  font-size: 5rem;
+  letter-spacing: 25px;
+  font-display: unset;
+  font-style: inherit;
+  color: aliceblue;
+  display: flex;
+  justify-content: center; }
+
+/* Seccion Sobre nosotros*/
+.texto-sobreNosotros {
+  text-transform: lowercase;
+  font-family: 'Koulen';
+  font-size: 4rem;
+  font-style: italic;
+  letter-spacing: normal;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center; }
+
+.titulo-marcas {
+  font-family: 'Koulen';
+  font-size: 3rem;
+  color: #fdfdfd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; }
+
+h4 {
+  text-align: center;
+  font-family: 'Koulen';
+  font-size: 2rem;
+  color: #fdfdfd;
+  justify-content: center; }
+
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*Seccion Sobre Nosotros*/
+/*seccion ubicacion*/
+.texto-ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-70px); }
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.mapa iframe {
+  border-style: double;
+  border-color: #fdfdfd; }
+
+/*seccion ubicacion*/
+/*Seccion Contactanos*/
+.titulo-contactanos {
+  font-family: 'Koulen';
+  font-style: oblique;
+  color: #fdfdfd;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #fdfdfd; }
+
+.titulo-consultas1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: 'Koulen';
+  font-display: unset;
+  color: #fdfdfd;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #fdfdfd; }
+
+.titulo-consultas {
+  font-family: 'Koulen';
+  font-display: unset;
+  color: #fdfdfd;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #fdfdfd; }
+
+.dropp-opciones {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+#menuOpciones1 {
+  background-color: #810442;
+  font-family: 'Koulen';
+  color: #fdfdfd; }
+
+#textArea {
+  display: flex;
+  justify-content: center; }
+
+#textArea textarea {
+  font-family: 'Koulen';
+  font-size: 1rem;
+  color: #fdfdfd;
+  background-color: #da054c; }
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin: 4px; }
+
+.botones-contacto {
+  margin: 10px;
+  background-color: #dc0973;
+  font-family: 'Koulen';
+  font-size: medium;
+  text-transform: uppercase;
+  color: #fdfdfd; }
+
+.botones-contacto:hover {
+  background-color: black;
+  color: #fdfdfd; }
+
+.botones-contacto:active {
+  background-color: #fdfdfd;
+  color: black; }
+
+/*seccion contactanos*/
+.footerTittle {
+  margin-left: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  color: #fdfdfd;
+  font-family: 'Koulen';
+  font-style: oblique;
+  font-size: xx-large; }
+
+.footerContainer {
+  width: 100%;
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  animation-name: fondo_en_movimiento;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; }
+
+.footerContainer .footer-cards {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  transition: all 0.25s; }
+
+.footerContainer .footer-cards:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.footerContainer .footer-cards img {
+  width: 100%;
+  height: 100%; }
+
+@keyframes fondo_en_movimiento {
+  0% {
+    background-color: red; }
+  25% {
+    background-color: orange; }
+  50% {
+    background-color: black; }
+  100% {
+    background-color: purple; } }
+
+/*responsive design*/
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: #fdfdfd;
+    background-image: linear-gradient(45deg, red, purple);
+    background-size: 375px;
+    background-repeat: no-repeat; }
+  .logo {
+    width: 65px;
+    height: 65px;
     margin-top: 36px;
     display: flex;
     justify-content: start;
     align-items: top;
     align-content: flex-start;
-    transform:translate(200px, 2px)
-}
-
-.logo1 img{
-    background-color: #fdfdfd;
-    width: 6rem;
-    height: 6rem;
-    transform: translate(50px, 0px);
-}
-.titulo-principal{
+    transform: translate(-10px, 0px); }
+  .logo1 img {
+    visibility: hidden; }
+  .titulo-principal {
     margin: 15px;
-    transform:translate(-500px ,-100px);
-    font-family:'Koulen';
-    font-size:70px;
-    font-weight: 500px;
-    font-display:inherit;
+    transform: translate(5px, -50px);
+    font-family: 'Koulen';
+    font-size: 17px;
+    font-display: inherit;
     font-style: oblique;
     color: #fdfdfd;
     display: flex;
-    justify-content:right;
+    justify-content: center;
     align-content: top;
-    align-items:top;
-}
-
-.navBar{
+    align-items: top; }
+  .navBar {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-transform: uppercase;
-    background-color: hsl(357, 80%, 55%);
-}
-
-
-p{
-    margin-top: 580px;
-    font-family:'Koulen';
-    font-size: 3rem;
-    font-style: italic;
-    color: aliceblue;
-    transform:translate(0px, 45px);
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.sponsor-tittle{
-    margin: 70px;
-    font-family:'Koulen';
-    font-size:5rem;
-    letter-spacing: 25px;
-    font-display:unset ;
-    font-style:inherit;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-}
-/* Seccion Sobre nosotros*/
-.texto-sobreNosotros{
-    text-transform: lowercase;
+    font-size: small;
     font-family: 'Koulen';
-    font-size: 4rem;
-    font-style: italic;
-    letter-spacing: normal;
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: center;
-}
-.titulo-marcas{
-    font-family: 'Koulen';
-    font-size: 3rem;
-    color: #fdfdfd;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-h4{
-    text-align: center;
-    font-family: 'Koulen';
-    font-size: 2rem;
-    color: #fdfdfd;
-    justify-content: center;
-}
-.videos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*Seccion Sobre Nosotros*/
-
-/*seccion ubicacion*/
-.texto-ubicacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-70px);
-}
-.mapa{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-.mapa iframe{
-    border-style: double;
-    border-color: #fdfdfd;
-}
-/*seccion ubicacion*/
-
-/*Seccion Contactanos*/
-
-.titulo-contactanos{
-    font-family: 'Koulen';
-    font-style: oblique;
-    color: #fdfdfd;
-    text-align: center;
-    text-decoration:underline ;
-    text-decoration-color: #fdfdfd 
-}
-.titulo-consultas1{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-family: 'Koulen';
-    font-display:unset;
-    color: #fdfdfd;
-    text-align: center;
-    text-decoration:underline ;
-    text-decoration-color: #fdfdfd 
-}
-
-.titulo-consultas{
-    font-family: 'Koulen';
-    font-display:unset;
-    color: #fdfdfd;
-    text-align: center;
-    text-decoration:underline ;
-    text-decoration-color: #fdfdfd 
-}
-.dropp-opciones{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
-}
-#menuOpciones1{
-    background-color: hsl(330, 94%, 26%);
-    font-family: 'Koulen';
-    color: #fdfdfd;
-}
-#textArea{
-    display: flex;
-    justify-content:center;
-}
-#textArea textarea{
+    background-color: #f36892; }
+  .navbar-responsive {
+    transform: translateY(-120px); }
+  p {
     font-family: 'Koulen';
     font-size: 1rem;
-    color:#fdfdfd;
-    background-color:rgb(218, 5, 76);
-}
-.botones{
+    font-style: italic;
+    color: aliceblue;
+    transform: translateY(-650px);
     display: flex;
-    justify-content:center;
-    margin: 4px;
-}
-
-.botones-contacto{
-    margin: 10px;
-    background-color: hsl(330, 92%, 45%);
-    font-family:'Koulen';
-    font-size: medium;
-    text-transform: uppercase;
-    color: #fdfdfd;
-}
-.botones-contacto:hover{
-    background-color: black;
-    color: #fdfdfd;
-}
-.botones-contacto:active{
-    background-color: #fdfdfd;
-    color: black;
-}
-/*seccion contactanos*/
-
-
-
- .footerTittle{
-    margin-left: 40px;
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    text-align:left;
-    color: #fdfdfd;
-    font-family: 'Koulen';
-    font-style: oblique;
-    font-size:xx-large;
-
- }
-
- .footerContainer{
-    width: 100%;
-    height: 190px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    animation-name: fondo_en_movimiento;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
- }
- .footerContainer .footer-cards{
-    width: 80px;
-    height: 80px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: auto;
     text-align: center;
-    transition: all 0.25s;
- }
- .footerContainer .footer-cards:hover{
-    transform:translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
- }
- .footerContainer .footer-cards img{
-    width: 100%;
-    height: 100%;
-
- }
-
- @keyframes fondo_en_movimiento{
-    0%{background-color: red;}
-    25%{background-color: orange;}
-    50%{background-color: black;}
-    100%{background-color: purple;}
- }
- /*responsive design*/
-
-@media only screen and (max-width: 375px){
-    body{
-        background-color: #fdfdfd;
-        background-image:linear-gradient(45deg,red,purple);
-        background-size: 375px;
-        background-repeat: no-repeat;
-    }
-
-    .logo{
-        width: 65px;
-        height: 65px;
-        margin-top: 36px;
-        display: flex;
-        justify-content: start;
-        align-items: top;
-        align-content: flex-start;
-        transform: translate(-10px, 0px);
-    }
-    .logo1 img{
-        visibility: hidden;
-    }
-
-    .titulo-principal{
-        margin: 15px;
-        transform:translate(5px ,-50px);
-        font-family:'Koulen';
-        font-size: 17px;
-        font-display:inherit;
-        font-style: oblique;
-        color: #fdfdfd;
-        display: flex;
-        justify-content:center;
-        align-content: top;
-        align-items:top;
-    }
-
-    .navBar{
-        display: flex;
-        flex-direction:column;
-        justify-content:space-between;
-        align-items: center;
-        text-transform: uppercase;
-        font-size: small;
-        font-family: 'Koulen';
-        background-color: hsl(342, 85%, 68%);
-        
-    }
-    .navbar-responsive{
-        transform: translateY(-120px);
-    }
-
-    p{
-        font-family:'Koulen';
-        font-size: 1rem;
-        font-style: italic;
-        color: aliceblue;
-        transform:translateY(-650px);
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    .sponsor-tittle{
-        font-family:'Koulen';
-        font-size:40px;
-        letter-spacing: 15px;
-        font-display:unset ;
-        font-style:inherit;
-        color:#fdfdfd;
-        display: flex;
-        justify-content: center;
-        transform: translateY(-700px);
-    }
-    .carrusel{
-        transform: translateY(-720px);
-    }
-
-    .carrusel-indicadores{
-        visibility: hidden;
-    }
-
-/* Seccion Sobre nosotros*/
-.texto-sobreNosotros{
+    justify-content: center; }
+  .sponsor-tittle {
+    font-family: 'Koulen';
+    font-size: 40px;
+    letter-spacing: 15px;
+    font-display: unset;
+    font-style: inherit;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-700px); }
+  .carrusel {
+    transform: translateY(-720px); }
+  .carrusel-indicadores {
+    visibility: hidden; }
+  /* Seccion Sobre nosotros*/
+  .texto-sobreNosotros {
     text-transform: lowercase;
     font-family: 'Koulen';
     font-size: 2rem;
@@ -349,115 +315,86 @@ h4{
     flex-direction: column;
     align-content: flex-end;
     align-items: center;
-    transform: translateY(-415px);
-}
-.titulo-marcas{
+    transform: translateY(-415px); }
+  .titulo-marcas {
     margin: 10px;
     font-family: 'Koulen';
     font-size: 2rem;
     color: #fdfdfd;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-}
-h4{
+    align-content: center; }
+  h4 {
     text-align: center;
     font-family: 'Koulen';
     font-size: 2rem;
     color: #fdfdfd;
-    justify-content: center;
-}
-/*Seccion Sobre Nosotros*/
-
-/*seccion ubicacion*/
-.texto-ubicacion{
+    justify-content: center; }
+  /*Seccion Sobre Nosotros*/
+  /*seccion ubicacion*/
+  .texto-ubicacion {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-70px);
-}
-.mapa{
+    transform: translateY(-70px); }
+  .mapa {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-}
-.mapa iframe{
+    margin-bottom: 30px; }
+  .mapa iframe {
     width: 340px;
     height: 580px;
     border-style: double;
-    border-color: #fdfdfd;
-}
-
-
-    /*seccion ubicacion*/
-.texto-ubicacion{
+    border-color: #fdfdfd; }
+  /*seccion ubicacion*/
+  .texto-ubicacion {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    transform: translateY(-570px);
-}
-.mapa{
+    transform: translateY(-570px); }
+  .mapa {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    transform: translateY(-570px);
-}
-.mapa iframe{
+    transform: translateY(-570px); }
+  .mapa iframe {
     border-style: double;
-    border-color: #fdfdfd;
-}
-/*seccion ubicacion*/
-    
-
-    .footerTittle{
-        margin-left: 40px;
-        display: flex;
-        justify-content: flex-start;
-        align-items:center;
-        text-align:left;
-        color: #fdfdfd;
-        font-family: 'Koulen';
-        font-style: oblique;
-        font-size:xx-large;
-    
-     }
-    
-     .footerContainer{
-        width: 100%;
-        height: -400px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        animation-name: fondo_en_movimiento;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-     }
-     .footerContainer .footer-cards{
-        width: 40px;
-        height: 40px;
-        border-radius: 8px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        margin: auto;
-        text-align: center;
-        transition: all 0.25s;
-     }
-     .footerContainer .footer-cards:hover{
-        transform:translateY(-15px);
-        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-     }
-     .footerContainer .footer-cards img{
-        width: 100%;
-        height: 100%;
-    
-     }
-
-}
-
-
-
-
-
+    border-color: #fdfdfd; }
+  /*seccion ubicacion*/
+  .footerTittle {
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    color: #fdfdfd;
+    font-family: 'Koulen';
+    font-style: oblique;
+    font-size: xx-large; }
+  .footerContainer {
+    width: 100%;
+    height: -400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    animation-name: fondo_en_movimiento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; }
+  .footerContainer .footer-cards {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    transition: all 0.25s; }
+  .footerContainer .footer-cards:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+  .footerContainer .footer-cards img {
+    width: 100%;
+    height: 100%; } }
